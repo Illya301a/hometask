@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+div > p{
+    background-color: #333
+}
+
+h4{
+    background-color: red;
+}
+
+.class-selector {
+    background-color: orange;
+}
+
+#id-selector {
+    background-color: yellow;
+    color: black;
+}
+
+[data-type="attribute"] {
+    background-color: lime;
+    color: black;
+}
+
+div p {
+    background-color: green;
+}
+
+ul > li {
+    background-color: skyblue;
+}
+
+.multi-class.another-class {
+    background-color: blue;
+}
+
+#combo.combo {
+    background-color: purple;
+}
+p.supercombo#supercombo {
+    background-color: magenta;
+}
+.container p.combination#combination[data-color="pink"] {
+    background-color: pink;
+    color: black;
+}
